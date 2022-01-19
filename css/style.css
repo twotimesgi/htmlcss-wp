@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin-top: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -9,21 +9,16 @@ body{
     font-size: 0.9em;
 }
 
+
 .container{
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
-    padding-top: 20px;
+    height: auto;
+    padding-top: 2rem;
 }
 
 header{
     width: 100%;
-}
-
-.logo{
-    width: 20%;
-    max-width: 150px;
-    margin-bottom: 1.5rem;
 }
 
 .nav-item a{
@@ -80,8 +75,7 @@ footer{
 
 .multi-article{
     width: 100%;
-    background-color: rgb(53, 135, 246);
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .multi-article:after, .multi-article:before{
@@ -92,21 +86,64 @@ footer{
 
 .title-box{
     width: 100%;
-    height: 80px;
-    background-color: rgb(177, 206, 228);
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
-.section{
-    width: calc(20% - 5px);
-    height: 300px;
-    background-color: rgb(177, 206, 228);
+.article{
+    width: calc(25%);
     float: left;
-    margin-bottom: 15px;;
+    margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .large{
-    width: calc(60% - 10px);
-    margin-left: 10px;
-    margin-right: 10px;
+    width: calc(50% - 2rem);
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
+
+.logo{
+    width: 20%;
+    max-width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.multi-article .article a{
+    color:black;
+    text-decoration: none;
+}
+
+.multi-article h1{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.multi-article h2{
+    font-size: 1em;
+    color: rgb(173, 173, 173);
+    font-weight: normal;
+}
+
+.multi-article .text-box{
+    margin-top: 1.5rem;
+}
+
+.multi-article h3{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.multi-article .img-box{
+    width: 100%;
+    height: 150px;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.multi-article .article-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+} 
+
