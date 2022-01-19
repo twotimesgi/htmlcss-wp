@@ -9,7 +9,6 @@ body{
     font-size: 0.9em;
 }
 
-
 .container{
     margin: 0 auto;
     width: 80%;
@@ -27,6 +26,11 @@ header{
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    color: black;
+    transition: color linear 0.5;
 }
 
 .nav-item{
