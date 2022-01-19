@@ -22,7 +22,7 @@ header{
 }
 
 .nav-item a{
-    color: rgb(173, 173, 173);
+    color: rgb(143, 143, 143);
     font-size: 0.8em;
     font-weight: 400;
     text-decoration: none;
@@ -116,7 +116,7 @@ footer{
 }
 
 .multi-article .article a{
-    color:black;
+    color:rgb(133, 133, 133);
     text-decoration: none;
 }
 
@@ -127,12 +127,13 @@ footer{
 
 .multi-article h2{
     font-size: 1em;
-    color: rgb(173, 173, 173);
+    color: rgb(143, 143, 143);
     font-weight: normal;
 }
 
 .multi-article .text-box{
     margin-top: 1.5rem;
+    color:rgb(143, 143, 143);
 }
 
 .multi-article h3{
