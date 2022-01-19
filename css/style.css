@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+}
+ß
 .container{
     margin: 0 auto;
     width: 80%;
@@ -13,9 +17,26 @@
 }
 
 header{
-    height: calc(10vh - 20px);
     width: 100%;
-    background-color: rgb(219, 141, 219);
+}
+
+.logo{
+    width: 20%;
+    max-width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.nav-item a{
+    color: rgb(173, 173, 173);
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    display: inline;
+    margin-right: 1rem;
 }
 
 main{
